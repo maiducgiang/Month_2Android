@@ -1,0 +1,6 @@
+com/example/appmonth2/BuildConfig.java
+ com.example.appmonth2.BuildConfig
+com/example/appmonth2/DataBindingTriggerClass.java
+ com.example.appmonth2.DataBindingTriggerClass
+com/example/appmonth2/databinding/ActivityMainBinding.java
+ com.example.appmonth2.databinding.ActivityMainBinding
