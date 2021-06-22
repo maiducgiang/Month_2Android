@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/action_back"
+        android:icon="@drawable/backitem"
+        android:title="BACK" />
+    <item
+        android:id="@+id/action_1"
+        android:icon="@drawable/item1"
+        android:title="null" />
+    <item
+        android:id="@+id/action_send"
+        android:icon="@drawable/senditem"
+        android:title="send" />
+
+    <item
+        android:id="@+id/action_menu"
+        android:icon="@drawable/moreitem"
+        android:title="menu" />
+
+
+</menu>
