@@ -15,7 +15,7 @@
             app:layout_constraintTop_toTopOf="parent"
             app:menu="@menu/menu"
             android:background="#FF8A80"
-            app:itemIconTint="#B71C1C"
+            app:itemIconTint="#B71C2C"
             app:itemTextColor="#B71C1C"
             />
 

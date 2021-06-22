@@ -12,10 +12,10 @@ class MainActivity : AppCompatActivity() {
         setContentView(R.layout.activity_main)
         replaceFragment(gmailFragment)
     }
-    private fun replaceFragment(fragment: Fragment){
-        if(fragment != null){
+    private fun replaceFragment(fragmentt: Fragment){
+        if(fragmentt != null){
             val transaction = supportFragmentManager.beginTransaction()
-            transaction.replace(R.id.fragment_container, fragment)
+            transaction.replace(R.id.fragment_container, fragmentt)
             transaction.commit()
         }
     }
