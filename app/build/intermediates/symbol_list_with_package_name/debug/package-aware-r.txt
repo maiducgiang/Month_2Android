@@ -1743,6 +1743,7 @@ id SHOW_PROGRESS
 id SYM
 id TOP_END
 id TOP_START
+id ac1Fragment
 id accelerate
 id accessibility_action_clickable_span
 id accessibility_custom_action_0
@@ -1779,6 +1780,7 @@ id accessibility_custom_action_8
 id accessibility_custom_action_9
 id action0
 id action_1
+id action_ac1Fragment_to_gmailFragment
 id action_back
 id action_bar
 id action_bar_activity_content
@@ -1790,6 +1792,7 @@ id action_bar_title
 id action_container
 id action_context_bar
 id action_divider
+id action_gmailFragment_to_ac1Fragment
 id action_image
 id action_menu
 id action_menu_divider
@@ -2143,6 +2146,7 @@ id textinput_helper_text
 id textinput_placeholder
 id textinput_prefix_text
 id textinput_suffix_text
+id textview_ac1
 id time
 id title
 id titleDividerNoCustom
@@ -2253,6 +2257,7 @@ layout design_navigation_menu
 layout design_navigation_menu_item
 layout design_text_input_end_icon
 layout design_text_input_start_icon
+layout fragment_ac1
 layout fragment_gmail
 layout material_chip_input_combo
 layout material_clock_display

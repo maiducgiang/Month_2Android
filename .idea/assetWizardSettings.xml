@@ -23,7 +23,7 @@
                                 <PersistentState>
                                   <option name="values">
                                     <map>
-                                      <entry key="url" value="jar:file:/C:/Program%20Files/Android/Android%20Studio/plugins/android/lib/android.jar!/images/material/icons/materialicons/more_vert/baseline_more_vert_24.xml" />
+                                      <entry key="url" value="jar:file:/C:/Program%20Files/Android/Android%20Studio/plugins/android/lib/android.jar!/images/material/icons/materialicons/star_border/baseline_star_border_24.xml" />
                                     </map>
                                   </option>
                                 </PersistentState>
@@ -33,7 +33,7 @@
                         </option>
                         <option name="values">
                           <map>
-                            <entry key="outputName" value="moreitem" />
+                            <entry key="outputName" value="star" />
                             <entry key="sourceFile" value="C:\Users\Admin\AndroidStudioProjects\RazeGalactic-ComplexLayout\AppMonth2" />
                           </map>
                         </option>

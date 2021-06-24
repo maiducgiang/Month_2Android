@@ -4,11 +4,11 @@ package com.example.appmonth2.databinding;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
-import android.widget.FrameLayout;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.databinding.DataBindingUtil;
 import androidx.databinding.ViewDataBinding;
+import androidx.fragment.app.FragmentContainerView;
 import com.example.appmonth2.R;
 import com.google.android.material.bottomnavigation.BottomNavigationView;
 import java.lang.Deprecated;
@@ -19,10 +19,10 @@ public abstract class ActivityMainBinding extends ViewDataBinding {
   public final BottomNavigationView buttonNavigation;
 
   @NonNull
-  public final FrameLayout fragmentContainer;
+  public final FragmentContainerView fragmentContainer;
 
   protected ActivityMainBinding(Object _bindingComponent, View _root, int _localFieldCount,
-      BottomNavigationView buttonNavigation, FrameLayout fragmentContainer) {
+      BottomNavigationView buttonNavigation, FragmentContainerView fragmentContainer) {
     super(_bindingComponent, _root, _localFieldCount);
     this.buttonNavigation = buttonNavigation;
     this.fragmentContainer = fragmentContainer;

@@ -3,11 +3,24 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/navigation"
-    app:startDestination="@id/gmailFragment">
+    app:startDestination="@id/ac1Fragment">
 
     <fragment
         android:id="@+id/gmailFragment"
         android:name="com.example.appmonth2.fragment.GmailFragment"
         android:label="fragment_gmail"
-        tools:layout="@layout/fragment_gmail" />
+        tools:layout="@layout/fragment_gmail" >
+        <action
+            android:id="@+id/action_gmailFragment_to_ac1Fragment"
+            app:destination="@id/ac1Fragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/ac1Fragment"
+        android:name="com.example.appmonth2.fragment.Ac1Fragment"
+        android:label="fragment_ac1"
+        tools:layout="@layout/fragment_ac1" >
+        <action
+            android:id="@+id/action_ac1Fragment_to_gmailFragment"
+            app:destination="@id/gmailFragment" />
+    </fragment>
 </navigation>

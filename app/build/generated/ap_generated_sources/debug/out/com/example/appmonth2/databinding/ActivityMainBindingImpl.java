@@ -31,7 +31,7 @@ public class ActivityMainBindingImpl extends ActivityMainBinding  {
     private ActivityMainBindingImpl(androidx.databinding.DataBindingComponent bindingComponent, View root, Object[] bindings) {
         super(bindingComponent, root, 0
             , (com.google.android.material.bottomnavigation.BottomNavigationView) bindings[1]
-            , (android.widget.FrameLayout) bindings[2]
+            , (androidx.fragment.app.FragmentContainerView) bindings[2]
             );
         this.mboundView0 = (androidx.constraintlayout.widget.ConstraintLayout) bindings[0];
         this.mboundView0.setTag(null);

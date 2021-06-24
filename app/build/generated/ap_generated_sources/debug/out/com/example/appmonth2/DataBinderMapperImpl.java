@@ -7,6 +7,8 @@ import androidx.databinding.DataBinderMapper;
 import androidx.databinding.DataBindingComponent;
 import androidx.databinding.ViewDataBinding;
 import com.example.appmonth2.databinding.ActivityMainBindingImpl;
+import com.example.appmonth2.databinding.FragmentAc1BindingImpl;
+import com.example.appmonth2.databinding.FragmentGmailBindingImpl;
 import java.lang.IllegalArgumentException;
 import java.lang.Integer;
 import java.lang.Object;
@@ -20,10 +22,16 @@ import java.util.List;
 public class DataBinderMapperImpl extends DataBinderMapper {
   private static final int LAYOUT_ACTIVITYMAIN = 1;
 
-  private static final SparseIntArray INTERNAL_LAYOUT_ID_LOOKUP = new SparseIntArray(1);
+  private static final int LAYOUT_FRAGMENTAC1 = 2;
+
+  private static final int LAYOUT_FRAGMENTGMAIL = 3;
+
+  private static final SparseIntArray INTERNAL_LAYOUT_ID_LOOKUP = new SparseIntArray(3);
 
   static {
     INTERNAL_LAYOUT_ID_LOOKUP.put(com.example.appmonth2.R.layout.activity_main, LAYOUT_ACTIVITYMAIN);
+    INTERNAL_LAYOUT_ID_LOOKUP.put(com.example.appmonth2.R.layout.fragment_ac1, LAYOUT_FRAGMENTAC1);
+    INTERNAL_LAYOUT_ID_LOOKUP.put(com.example.appmonth2.R.layout.fragment_gmail, LAYOUT_FRAGMENTGMAIL);
   }
 
   @Override
@@ -40,6 +48,18 @@ public class DataBinderMapperImpl extends DataBinderMapper {
             return new ActivityMainBindingImpl(component, view);
           }
           throw new IllegalArgumentException("The tag for activity_main is invalid. Received: " + tag);
+        }
+        case  LAYOUT_FRAGMENTAC1: {
+          if ("layout/fragment_ac1_0".equals(tag)) {
+            return new FragmentAc1BindingImpl(component, view);
+          }
+          throw new IllegalArgumentException("The tag for fragment_ac1 is invalid. Received: " + tag);
+        }
+        case  LAYOUT_FRAGMENTGMAIL: {
+          if ("layout/fragment_gmail_0".equals(tag)) {
+            return new FragmentGmailBindingImpl(component, view);
+          }
+          throw new IllegalArgumentException("The tag for fragment_gmail is invalid. Received: " + tag);
         }
       }
     }
@@ -94,10 +114,12 @@ public class DataBinderMapperImpl extends DataBinderMapper {
   }
 
   private static class InnerLayoutIdLookup {
-    static final HashMap<String, Integer> sKeys = new HashMap<String, Integer>(1);
+    static final HashMap<String, Integer> sKeys = new HashMap<String, Integer>(3);
 
     static {
       sKeys.put("layout/activity_main_0", com.example.appmonth2.R.layout.activity_main);
+      sKeys.put("layout/fragment_ac1_0", com.example.appmonth2.R.layout.fragment_ac1);
+      sKeys.put("layout/fragment_gmail_0", com.example.appmonth2.R.layout.fragment_gmail);
     }
   }
 }

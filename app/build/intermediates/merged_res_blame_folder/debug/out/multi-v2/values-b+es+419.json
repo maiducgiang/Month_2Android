@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "C:\\Users\\Admin\\AndroidStudioProjects\\RazeGalactic-ComplexLayout\\AppMonth2\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-b+es+419\\values-b+es+419.xml",
+            "outputFile": "C:\\Users\\Admin\\AndroidStudioProjects\\RazeGalactic-ComplexLayout\\Month2part2\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-b+es+419\\values-b+es+419.xml",
             "map": [
                 {
                     "source": "C:\\Users\\Admin\\.gradle\\caches\\transforms-2\\files-2.1\\a5b31df8eafe12eddd5f62855a6a75bb\\material-1.3.0\\res\\values-b+es+419\\values-b+es+419.xml",

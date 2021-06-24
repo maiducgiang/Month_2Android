@@ -1,1 +1,1 @@
-[{"navFile":"src\\main\\res\\navigation\\navigation.xml","javaFiles":[]}]
+[{"navFile":"src\\main\\res\\navigation\\navigation.xml","javaFiles":["com.example.appmonth2.fragment.GmailFragmentDirections","com.example.appmonth2.fragment.Ac1FragmentDirections"]}]

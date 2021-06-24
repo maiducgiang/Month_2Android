@@ -1,6 +1,14 @@
 [
     {
-        "merged": "C:\\Users\\Admin\\AndroidStudioProjects\\RazeGalactic-ComplexLayout\\AppMonth2\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_main.xml",
-        "source": "C:\\Users\\Admin\\AndroidStudioProjects\\RazeGalactic-ComplexLayout\\AppMonth2\\app\\src\\main\\res\\layout\\activity_main.xml"
+        "merged": "C:\\Users\\Admin\\AndroidStudioProjects\\RazeGalactic-ComplexLayout\\Month2part2\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\fragment_ac1.xml",
+        "source": "C:\\Users\\Admin\\AndroidStudioProjects\\RazeGalactic-ComplexLayout\\Month2part2\\app\\src\\main\\res\\layout\\fragment_ac1.xml"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\AndroidStudioProjects\\RazeGalactic-ComplexLayout\\Month2part2\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_main.xml",
+        "source": "C:\\Users\\Admin\\AndroidStudioProjects\\RazeGalactic-ComplexLayout\\Month2part2\\app\\src\\main\\res\\layout\\activity_main.xml"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\AndroidStudioProjects\\RazeGalactic-ComplexLayout\\Month2part2\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\fragment_gmail.xml",
+        "source": "C:\\Users\\Admin\\AndroidStudioProjects\\RazeGalactic-ComplexLayout\\Month2part2\\app\\src\\main\\res\\layout\\fragment_gmail.xml"
     }
 ]
